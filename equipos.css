@@ -1,0 +1,52 @@
+.logo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.fondo{
+
+/* Ubicación de la imagen */
+
+background-image: url(imagenes/howl.jpg);
+
+/* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+/* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+
+background-color: #66999;
+}
+#foto1{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    padding-top: 30px;
+
+}
+    
+#foto1:hover {filter: opacity(.5);}
