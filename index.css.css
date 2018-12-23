@@ -47,6 +47,14 @@ background-color: #66999;
 nav{
 	opacity: 0.9;
 }
+.rss{
+	width:40px;
+	height:40px;
+}
+.atom{
+	width: 40px;
+	height: : 40px;
+}
 
 h1{
 	
